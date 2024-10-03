@@ -1,0 +1,43 @@
+.footer-container {
+  width: 100%;
+  height: 80vh;
+  background: url("../../assets/Banner/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  /* opacity: 0.3; */
+  position: relative;
+}
+.footer-blur {
+  width: 100%;
+  height: 80vh;
+  background-color: #2f091598;
+  position: absolute;
+  top: 0;
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  /* text-align: center; */
+}
+.footer-map {
+  width: 15rem;
+  height: 15rem;
+}
+.footer-contact h2,
+.footer-timing h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+@media (max-width: 480px) {
+  .footer-container {
+    min-height: 80vh;
+    padding: 10rem 0;
+  }
+  .footer-blur {
+    min-height: 80vh;
+    padding: 10rem 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

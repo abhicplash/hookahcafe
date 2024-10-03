@@ -1,0 +1,79 @@
+.homeabout-container {
+  width: 100%;
+  /* height: 100vh; */
+  /* background: radial-gradient(); */
+  /* background-color: var(--smokered); */
+  /* background: linear-gradient(
+    to right bottom,
+    var(--smokeblue),
+    var(--shishared)
+  ); */
+  background-color: var(--shishabg);
+  text-align: center;
+}
+
+.head-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 0;
+}
+.head-section .tag {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--smokered);
+  font-family: "Qwitcher Grypen", cursive;
+}
+.head-section hr {
+  width: 7rem;
+  height: 0.1rem;
+  background-color: var(--smokered);
+  border: none;
+  outline: none;
+}
+.head-section .Experience-Head {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--shishared);
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  gap: 2rem;
+  
+}
+.homeabout-service {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem ;
+  height: 17rem;
+  width: 15rem;
+}
+.homeabout-service img {
+  width: 6rem;
+  height: 7rem;
+}
+.service-details {
+  width: 15rem;
+}
+.service-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media (max-width: 480px) {
+  .homeabout-container {
+    height: 100%;
+  }
+  /* .services{} */
+}
